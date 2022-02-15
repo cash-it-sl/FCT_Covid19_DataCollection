@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FCT C19</string>
+    <string name="title_activity_splash">splash</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="vaccination">
+        <item> </item>
+        <item>Not Vaccinated</item>
+        <item>One Dose</item>
+        <item>Fully Vaccinated</item>
+
+    </string-array>
+
+    <string-array name="locate">
+        <item>Outside</item>
+        <item>Hostel</item>
+
+
+    </string-array>
+
+
+    <string-array name="alternatecourse">
+        <item>GTEC</item>
+        <item>CTEC</item>
+        <item>ENPR</item>
+        <item>CTNT</item>
+        <item>GANI</item>
+        <item>SWST</item>
+        <item>CSCI</item>
+        <item>Other</item>
+
+
+    </string-array>
+</resources>

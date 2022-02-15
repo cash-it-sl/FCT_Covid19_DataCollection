@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".form">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I ,"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s_name"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Bearing Student ID : "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sid"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" Declare the following   :"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Vaccination State: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null"
+                android:id="@+id/vaxstat"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter the Measured Temp:  "/>
+            <EditText
+                android:textAlignment="center"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:id="@+id/Tempreture"
+                android:inputType="number"
+                android:hint="36.5"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/topic1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Tick the relevent Cages)"/>
+
+        <CheckBox
+            android:id="@+id/rule1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I have not confirmed/diagnosed as Covid-19 Positive for last 14 days"/>
+
+        <CheckBox
+            android:id="@+id/rule2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I have not had close contact or lived in the same house with a confirmed or suspected COVID-19 patient within the last 14days"/>
+
+        <CheckBox
+            android:id="@+id/rule3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I have not returned from abroad within last 14 days"/>
+
+        <CheckBox
+            android:id="@+id/rule4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I have not lived in the same house or had close contact with someone who returned from abroad with the last 14days"/>
+
+        <CheckBox
+            android:id="@+id/rule5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None of my house hold members have been quarantined within the last 14 days"/>
+
+        <CheckBox
+            android:id="@+id/rule6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I do not live in a community (A Grama Niladhari division/village or road) that was locked-down/closed off due to hight risk of Covid-19 transmission within the last 14 days"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I declare that I have had the following symptoms within the last 14 days:"/>
+
+        <CheckBox
+            android:id="@+id/fever"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fever"/>
+
+        <CheckBox
+            android:id="@+id/drycough"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dry Cough"/>
+
+        <CheckBox
+            android:id="@+id/runnynose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Runny Nose"/>
+
+        <CheckBox
+            android:id="@+id/sore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sore Throat" />
+
+        <CheckBox
+            android:id="@+id/bodyaches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Body Aches ( Muscle / Join Pain)"/>
+
+        <CheckBox
+            android:id="@+id/headache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Head Ache"/>
+
+        <CheckBox
+            android:id="@+id/shortness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shortness of Breath"/>
+
+        <CheckBox
+            android:id="@+id/tiredness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiredness(Fatigue)"/>
+
+        <CheckBox
+            android:id="@+id/lossofsmell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loss of Smell"/>
+
+        <CheckBox
+            android:id="@+id/none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None of the Above"/>
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:id="@+id/date"/>
+
+
+        </LinearLayout >
+
+        <Spinner
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"/>
+
+        <Spinner
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:id="@+id/submit_form"/>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

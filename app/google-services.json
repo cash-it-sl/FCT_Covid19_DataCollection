@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812794685844",
+    "project_id": "fct-5b4af",
+    "storage_bucket": "fct-5b4af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812794685844:android:18f68cd5b89bbd8996c781",
+        "android_client_info": {
+          "package_name": "com.example.fctc19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812794685844-di2ir32uma378bak2jvt8q6qfh702mmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrVsEx9M7qhztpoPIJFB28TYfS9hok3g8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812794685844-di2ir32uma378bak2jvt8q6qfh702mmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
